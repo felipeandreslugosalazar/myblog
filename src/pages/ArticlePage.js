@@ -4,6 +4,8 @@ import ArticlesList from "../components/ArticlesList";
 import NotFoundPage from "./NotFoundPage";
 
 const ArticlePage = ({ match }) => {
+  // 4.1 we will use the  build-in fetch api  to connect FE and BE
+
   const name = match.params.name;
   const article = articleContent.find((article) => article.name === name);
 
