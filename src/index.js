@@ -1,5 +1,5 @@
 // polyfill set up (so IE can work with this)
-import "whatwh-fetch";
+import "whatwg-fetch";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
